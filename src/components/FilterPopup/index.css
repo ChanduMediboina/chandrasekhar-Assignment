@@ -1,0 +1,98 @@
+.filter-container {
+  display: flex;
+  align-items: center;
+  background-color: #d3f59d;
+  height: 35px;
+  padding: 15px;
+}
+@media screen and (max-width: 767px) {
+  .filter-container {
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+}
+.filter-heading {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #252729;
+  padding-left: 10px;
+}
+
+.filter-content-container {
+  opacity: 1;
+  background-color: #c6ccbe;
+  padding: 10px 10px 20px 30px;
+  width: 300px;
+  min-height: 100px;
+}
+.filter-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 450;
+  color: #212121;
+  line-height: 0.5;
+}
+.burner-subscriber-container {
+  display: flex;
+  justify-content: space-around;
+}
+.checkbox-card-type-container {
+  display: flex;
+  justify-content: space-between;
+}
+.burner-checkbox {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #212121;
+  padding-left: 5px;
+}
+.checkbox {
+  background-color: transparent;
+}
+.drop-down-btn {
+  width: 80%;
+  padding: 4px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.popup-hr-line {
+  background-color: #ffffff;
+}
+
+.demo-video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apply-btn {
+  background-color: #fa1115;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.apply-btn:hover {
+  background-color: #fa0207;
+}
+.cancel-btn {
+  background-color: transparent;
+  border: 1px solid #141414;
+  border-radius: 8px;
+  color: #141414;
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.cancel-btn:hover {
+  background-color: #05f1f5;
+  border: none;
+}

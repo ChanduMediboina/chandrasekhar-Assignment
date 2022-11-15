@@ -1,0 +1,103 @@
+.card-container {
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 0px #d4d3d2;
+  list-style-type: none;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 400px;
+  border-radius: 8px;
+  border: 1px solid #f705d7;
+}
+.card-container:hover {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.name-card-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-name-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #0d0c0c;
+}
+.budget-name-heading {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #2e2d2d;
+  line-height: 0.4;
+}
+.fire-icon {
+  color: #e60505;
+  background-color: #e3dede;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 40px;
+}
+.line-container {
+  display: flex;
+}
+.used-space-line {
+  border: 3.5px solid #e60505;
+  background-color: #e60505;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.available-space-line {
+  border: 3.5px solid green;
+  background-color: green;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.spend-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.spend {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0.2;
+}
+.red-dot {
+  background-color: #e60505;
+  border-radius: 40px;
+  margin-right: 10px;
+  color: #e60505;
+}
+.green-dot {
+  background-color: green;
+  border-radius: 40px;
+  margin-right: 10px;
+  color: green;
+}
+.value {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0.2;
+}
+.card-type {
+  background-color: #ffffff33;
+  opacity: 0.8;
+  border: 1px solid #2e2d2d;
+  border-radius: 4px;
+  animation: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
